@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 35, 35);
+  color: rgb(226, 202, 155) ;
+ 
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0 5em;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 5em;
+  margin-top: 4em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em;
+  margin-top: 4em;
+  
+}
+.button-container{
+  display: flex;
+  gap: 52px;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+
+.main {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 0;
+
+}
+
+
+
+.product{
+  border :#3e4444 solid 1px;
+  border-radius:10px;
+  width: 350px;
+  text-align: center;
+  height: 10em;
+  font-weight: 400 ;
+  font-size: larger;
+  line-height: 1.6em; 
+  margin: 20px;
+  background-color: rgb(101, 112, 106);
+
+}
+.form-check{
+  width: 20px;
+  height: 20px;
+  margin-left: 1em;
+  margin-top: 0.8em;
+
+}
+.delete-checkbox {
+  border: #3e4444 solid 1px;
+}
+.delete-checkbox:hover {
+  border: 1px solid #2ba6cf;
+  cursor: pointer;
+  
+}
+#btnADD {
+  padding: 0 2.5em;
+}
+
+
+footer {
+  flex-shrink: 0;
+  
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  margin-top: auto;
+}
+p {
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+  text-wrap: wrap;
+}
+#delete-product-btn, #btnADD {
+  visibility: visible;
+}
+@media(max-width:790px){
+  body {
+    font-size: smaller;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  }
+  
+ #btnADD {
+    height: 62px;
+  }
+
+  .main {
+ 
+   
+    padding: 0;
+  }
+}
+  

@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 5em;
+    background-color: rgb(31, 35, 35);
+    color: rgb(226, 202, 155) ;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+    margin-top: 4em;
+}
+
+.main-content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    padding: 2em 0;
+}
+
+.row {
+    margin: 10px;
+}
+
+input#sku, input#price {
+    margin-left: 10px;
+}
+
+form {
+    border: #3e4444 1px solid;
+    max-width: max-content;
+    border-radius: 10px;
+    padding: 1em 3em 1em;
+    background-color: rgb(101, 112, 106);
+    font-weight: bolder;
+    
+
+
+}
+button {
+    padding: 40px;
+}
+
+input {
+    font-weight: bolder;
+}
+
+.text-muted  {
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+    text-wrap: wrap;
+    color: rgb(231, 216, 186)  !important;
+
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.button-container{
+    display: flex;
+    gap: 52px;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 6em;
+  }
+  .btn {
+    align-items: center;
+    padding:10px 18px;
+    display: flex;
+    gap: 40px;    
+  }
+ footer p {
+    font-weight: 400;
+    font-size: larger;
+ }
+  @media(max-width:790px){
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        margin: 4em;
+    }
+    .btn-outline-primary {
+        padding-left: 23px;
+    }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
