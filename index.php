@@ -24,7 +24,7 @@ $productDisplay = new ProductView();
         <div class="button-container">
             <input type="button" value="ADD" class="btn btn-outline-primary homebutton" id="btnADD" aria-hidden="false" 
                    onClick="document.location.href='productadd.php'" />
-            <button type="submit" class="btn btn-outline-danger" aria-hidden="false" id="delete-product-btn">MASS DELETE</button>
+            <button type="submit" class="btn btn-outline-danger" aria-hidden="false" id="delete-product-btn">DELETE</button>
         </div>
     </header>
     <hr>
